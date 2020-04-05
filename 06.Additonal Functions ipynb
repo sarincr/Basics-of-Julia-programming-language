@@ -1057,6 +1057,135 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = collect(1:10);"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = a[:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = a[:]"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
