@@ -1186,10 +1186,177 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 52,
    "metadata": {},
-   "outputs": [],
-   "source": []
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "set_to_5 (generic function with 1 method)"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "function set_to_5(x)\n",
+    "    x = 5\n",
+    "end"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "set_to_5(5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "UndefVarError",
+     "evalue": "UndefVarError: x not defined",
+     "output_type": "error",
+     "traceback": [
+      "UndefVarError: x not defined",
+      "",
+      "Stacktrace:",
+      " [1] top-level scope at In[55]:1"
+     ]
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 56,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = collect(1:10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "UndefVarError",
+     "evalue": "UndefVarError: fill_with_5 not defined",
+     "output_type": "error",
+     "traceback": [
+      "UndefVarError: fill_with_5 not defined",
+      "",
+      "Stacktrace:",
+      " [1] top-level scope at In[58]:1"
+     ]
+    }
+   ],
+   "source": [
+    "x=fill_with_5(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10-element Array{Int64,1}:\n",
+       "  1\n",
+       "  2\n",
+       "  3\n",
+       "  4\n",
+       "  5\n",
+       "  6\n",
+       "  7\n",
+       "  8\n",
+       "  9\n",
+       " 10"
+      ]
+     },
+     "execution_count": 59,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
   }
  ],
  "metadata": {
